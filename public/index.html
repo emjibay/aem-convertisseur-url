@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Convertisseur d'URL AEM</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Convertisseur d'URL AEM</h1>
+
+      <section>
+        <form id="form">
+
+          <div class="form-field">
+            <label for="authorUrl">URL version auteur</label>
+            <input
+              type="text"
+              name="authorUrl"
+              id="authorUrl"
+              required
+            />
+          </div>
+
+          <div class="form-field">
+            <button
+              id="submitBtn"
+              type="submit"
+            >Convertir</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="output">
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

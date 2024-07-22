@@ -1,0 +1,75 @@
+body, html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+form {
+  display: block;
+  background-color: #eee;
+  padding: 32px;
+}
+
+.form-field {
+  display: block;
+}
+
+.form-field:not(:first-of-type) {
+  margin-top: 32px;
+}
+
+label {
+  display: block;
+
+  font-size: 10pt;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+input[type="text"] {
+  display: block;
+  padding: 4px;
+  width: 100%;
+
+  font-size: 11pt;
+  line-height: 1;
+}
+
+button[type="submit"] {
+  display: inline-block;
+  padding: 4px;
+  cursor: pointer;
+}
+
+dt, dd, dl {
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+  font-size: 10pt;
+  line-height: 1.5;
+}
+
+dd {
+  font-size: 11pt;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.output {
+  background-color: #eee;
+  padding: 32px;
+  margin-top: 32px;
+}
+
+:focus {
+  box-shadow:
+    0 0 0 2px white,
+    0 0 0 4px purple;
+  outline: none;
+}
